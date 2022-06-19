@@ -1,0 +1,6 @@
+enable
+config t
+ip dhcp pool DataDHCP
+network 0.0.0.0 0.0.0.0
+domain-name cisco.com
+dns-server 8.8.8.8
